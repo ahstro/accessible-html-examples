@@ -9,11 +9,11 @@ view =
     div []
         [ h3 [] [ text "Image Examples" ]
         , viewImageBlock "An informative image" <|
-            img "Elm Logo" [ src "/assets/elm-logo.png" ]
+            img "Elm Logo" [ src "../../assets/elm-logo.png" ]
         , viewImageBlock "A decorative image" <|
-            decorativeImg [ src "/assets/elm-logo.png" ]
+            decorativeImg [ src "../../assets/elm-logo.png" ]
         , viewImageBlock "A functional image" <|
-            a [ href "http://package.elm-lang.org/" ] [ decorativeImg [ src "/assets/elm-logo.png" ] ]
+            a [ href "http://package.elm-lang.org/" ] [ decorativeImg [ src "../../assets/elm-logo.png" ] ]
         ]
 
 
